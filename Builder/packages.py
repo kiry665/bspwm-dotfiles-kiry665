@@ -4,16 +4,17 @@ BASE_PACKAGES = [
     "tumbler", "ffmpegthumbnailer", "lsd", "alacritty", "bat", "brightnessctl", "calc",
     "automake", "blueberry", "bluez", "bluez-utils", "dunst", "fakeroot", "feh", "firefox",
     "fish", "dpkg", "gcc", "gedit", "git", "gnu-netcat", "htop", "btop", "nano", "lxappearance",
-    "mat2", "mpd", "mpv", "thunar", "ncmpcpp", "neofetch", "network-manager-applet", "nitrogen",
+    "mat2", "mpd", "mpv", "nautilus", "ncmpcpp", "neofetch", "network-manager-applet", "nitrogen",
     "pamixer", "papirus-icon-theme", "pavucontrol", "polybar", "autoconf", "mpc", "pulseaudio",
     "pulseaudio-alsa", "python-pyalsa", "ranger", "redshift", "reflector", "rofi", "rofi-calc", "calcurse",
     "rofi-emoji", "scrot", "sudo", "slop", "tree", "unrar", "zip", "unzip", "uthash", "xarchiver",
     "xfce4-power-manager", "xfce4-settings", "xorg-xbacklight", "zathura", "zathura-djvu", "zathura-pdf-mupdf",
     "cmake", "clang", "gzip", "imagemagick", "make", "openssh", "pulseaudio-bluetooth", "shellcheck",
     "vlc", "usbutils", "picom", "networkmanager-openvpn", "alsa-plugins", "alsa-tools", "alsa-utils", "ffmpeg",
-    "p7zip", "gparted", "sshfs", "openvpn", "xclip", "gpick", "wget", "ueberzug", "netctl", "light", "libreoffice",
+    "p7zip", "gparted", "sshfs", "openvpn", "xclip", "gpick", "wget", "ueberzug", "netctl", "light",
     "breeze", "vulkan-intel", "intel-ucode", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-fira-code",
-    "ttf-iosevka-nerd", "xf86-video-amdgpu", "mesa", "vulkan-radeon", "xf86-input-synaptics"
+    "ttf-iosevka-nerd", "xf86-video-amdgpu", "mesa", "vulkan-radeon", "xf86-input-synaptics", "timeshift", "telegram-desktop",
+    "obsidian", "wireguard-tools", "adwaita-icon-theme", "i3lock"
 ]
 
 DEV_PACKAGES = [
@@ -25,7 +26,7 @@ DEV_PACKAGES = [
 ]
 
 AUR_PACKAGES = [
-    "cava", "i3lock-color", "ptpython"
+    "cava", "i3lock-color", "ptpython", "yandex-browser"
 ]
 
 GNOME_OFFICIAL_TOOLS = [

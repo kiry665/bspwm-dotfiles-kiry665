@@ -81,5 +81,5 @@ class SystemConfiguration:
         os.system("cp -r themes ~/.themes")
         os.system("cp xinitrc ~/.xinitrc")
         os.system("cp -r bin/ ~/")
-        os.system("cp 70-synaptics.conf /etc/X11/xorg.conf.d")
-        os.system("cp 10-amdgpu.conf /etc/X11/xorg.conf.d")
+        os.system("sudo cp -r 70-synaptics.conf /etc/X11/xorg.conf.d")
+        os.system("sudo cp -r 10-amdgpu.conf /etc/X11/xorg.conf.d")
