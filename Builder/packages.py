@@ -14,7 +14,7 @@ BASE_PACKAGES = [
     "p7zip", "gparted", "sshfs", "openvpn", "xclip", "gpick", "wget", "ueberzug", "netctl", "light",
     "breeze", "vulkan-intel", "intel-ucode", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-fira-code",
     "ttf-iosevka-nerd", "xf86-video-amdgpu", "mesa", "vulkan-radeon", "xf86-input-synaptics", "timeshift", "telegram-desktop",
-    "obsidian", "wireguard-tools", "adwaita-icon-theme", "i3lock"
+    "obsidian", "wireguard-tools", "adwaita-icon-theme", "i3lock", "virtualbox", "linux-headers", "virtualbox-host-dkms", "virtualbox-guest-iso"
 ]
 
 DEV_PACKAGES = [
